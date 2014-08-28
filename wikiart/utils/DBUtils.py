@@ -5,7 +5,7 @@ __author__ = 'yyy'
 import psycopg2
 
 def get_conn():
-    conn = psycopg2.connect(dbname='yuntoo_phone', user='postgres', password='test1234', host='114.215.145.32')
+    conn = psycopg2.connect(dbname='', user='postgres', password='', host='')
     cur = conn.cursor()
     return conn, cur
 
