@@ -16,4 +16,19 @@ class WikiartItem(scrapy.Item):
     died = scrapy.Field()
     nationality = scrapy.Field()
 
+class WikiartProductsItem(scrapy.Item):
+
+    product_name = scrapy.Field()
+    create_at = scrapy.Field()
+    resource_url = scrapy.Field()
+    s_url = scrapy.Field()
+    create_by = scrapy.Field()
+    width = scrapy.Field()
+    length = scrapy.Field()
+    product_style = scrapy.Field()
+    product_genre = scrapy.Field()
+    dimensions = scrapy.Field()
+    material = scrapy.Field()
+
+
 

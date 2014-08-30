@@ -21,4 +21,4 @@ ITEM_PIPELINES = [
     'wikiart.pipelines.RecordPipeline.RecordPipeline',
     ]
 
-IMAGES_STORE = '/Users/yyy/myCode/yuntoo/wikiart/download'
+IMAGES_STORE = '/Users/yyy/myCode/yuntoo/download'
