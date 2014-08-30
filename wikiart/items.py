@@ -7,7 +7,6 @@
 
 import scrapy
 
-
 class WikiartItem(scrapy.Item):
     artist_url = scrapy.Field()
     artist_name = scrapy.Field()
