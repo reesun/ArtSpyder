@@ -9,7 +9,6 @@ class RecordPipeline(object):
     def __init__(self):
         self.conn, self.cur = DBUtils.get_conn()
 
-
     def process_item(self, item, spider):
         if isinstance(item, WikiartProductsItem):
             sql = """INSERT INTO products_details(resource_url, resource_type, create_by, product_name, s_url,
