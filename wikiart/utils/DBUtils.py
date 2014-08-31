@@ -5,7 +5,7 @@ __author__ = 'yyy'
 import psycopg2
 
 def get_conn():
-    conn = psycopg2.connect(dbname='', user='postgres', password='', host='')
+    conn = psycopg2.connect(dbname='wikiart', user='postgres', host='127.0.0.1')
     cur = conn.cursor()
     return conn, cur
 
